@@ -87,3 +87,12 @@ assets:
     source:
     - name: AI/Final Xemnas.bdx
     type: Bdx
+#Mset
+- name: obj/P_EX100.mset
+  method: copy
+  source:
+  - name: mset/P_EX100.mset
+- name: obj/P_EX100_MAGF.mset
+  method: copy
+  source:
+  - name: mset/P_EX100_MAGF.mset
