@@ -54,3 +54,36 @@ assets:
     source:
     - name: 03System.bin/jppref_0.bin
     type: Binary
+#Boss AI Stuff
+- name: obj/B_EX170.mdlx
+  method: binarc
+  source:
+  - name: b_ex
+    method: copy
+    source:
+    - name: AI/Xemnas 1.bdx
+    type: Bdx
+- name: obj/B_EX180.mdlx
+  method: binarc
+  source:
+  - name: b_ex
+    method: copy
+    source:
+    - name: AI/AX2Big.bdx
+    type: Bdx
+- name: obj/B_EX260.mdlx
+  method: binarc
+  source:
+  - name: b_ex
+    method: copy
+    source:
+    - name: AI/AX2.bdx
+    type: Bdx
+- name: obj/B_EX170_Last.mdlx
+  method: binarc
+  source:
+  - name: b_ex
+    method: copy
+    source:
+    - name: AI/Final Xemnas.bdx
+    type: Bdx
