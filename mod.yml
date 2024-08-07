@@ -1,0 +1,56 @@
+title: Kingdom Hearts 2 Japanese
+originalAuthor: Shananas
+game: kh2
+description: Makes KH2FM as close to KH2 Japanese as I am able. Still a WIP
+assets:
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: atkp
+    method: copy
+    source:
+    - name: 00battle.bin/jpatkp_0.list
+    type: List
+  - name: bons
+    method: copy
+    source:
+    - name: 00battle.bin/jpbons_0.list
+    type: List
+  - name: enmp
+    method: copy
+    source:
+    - name: 00battle.bin/jpenmp_0.list
+    type: List
+  - name: fmlv
+    method: copy
+    source:
+    - name: 00battle.bin/jpfmlv_0.list
+    type: List
+  - name: lvpm
+    method: copy
+    source:
+    - name: 00battle.bin/jplvpm_0.list
+    type: List
+  - name: lvup
+    method: copy
+    source:
+    - name: 00battle.bin/jplvup_0.list
+    type: List
+- name: 03system.bin
+  method: binarc
+  source:
+  - name: item
+    method: copy
+    source:
+    - name: 03System.bin/jpitem_0.list
+    type: List
+  - name: trsr
+    method: copy
+    source:
+    - name: 03System.bin/jptrsr_0.list
+    type: List
+  - name: pref
+    method: copy
+    source:
+    - name: 03System.bin/jppref_0.bin
+    type: Binary
