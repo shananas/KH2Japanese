@@ -96,3 +96,12 @@ assets:
   method: copy
   source:
   - name: mset/P_EX100_MAGF.mset
+#Limits
+- name: limit/us/donald2.bar
+  method: copy
+  source:
+  - name: limit/donald2.bar
+- name: limit/us/donald2_wi.bar
+  method: copy
+  source:
+  - name: limit/donald2_wi.bar
