@@ -109,11 +109,11 @@ assets:
   - name: limit/donald2.bar
 - name: limit/us/donald2_wi.bar
   multi:
-  - name: limit/fr/donald2.bar
-  - name: limit/gr/donald2.bar
-  - name: limit/it/donald2.bar
-  - name: limit/sp/donald2.bar
-  - name: limit/fm/donald2.bar
+  - name: limit/fr/donald2_wi.bar
+  - name: limit/gr/donald2_wi.bar
+  - name: limit/it/donald2_wi.bar
+  - name: limit/sp/donald2_wi.bar
+  - name: limit/fm/donald2_wi.bar
   method: copy
   source:
   - name: limit/donald2_wi.bar
