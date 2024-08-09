@@ -105,3 +105,8 @@ assets:
   method: copy
   source:
   - name: limit/donald2_wi.bar
+#Ard
+- name: ard/us/eh03.ard
+  method: copy
+  source:
+  - name: ard/eh03.ard
