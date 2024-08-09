@@ -110,3 +110,22 @@ assets:
   method: copy
   source:
   - name: ard/eh03.ard
+#PR Map Skip
+- name: msg/us/ca.bar
+  multi:
+  - name: msg/fr/ca.bar
+  - name: msg/gr/ca.bar
+  - name: msg/it/ca.bar
+  - name: msg/sp/ca.bar
+  method: binarc
+  source:
+  - name: ca
+    type: list
+    method: kh2msg
+    source:
+    - name: map_skip/ca.yml
+      language: en
+- name: libretto-ca.bar
+  method: copy
+  source:
+  - name: map_skip/libretto-ca.bar
