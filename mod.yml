@@ -55,6 +55,14 @@ assets:
     - name: 03System.bin/jppref_0.bin
     type: Binary
 #Boss AI Stuff
+- name: obj/B_EX210.mdlx
+  method: binarc
+  source:
+  - name: b_ex
+    method: copy
+    source:
+    - name: AI/Luxord.bdx
+    type: Bdx
 - name: obj/B_EX170.mdlx
   method: binarc
   source:
