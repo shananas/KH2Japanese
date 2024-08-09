@@ -98,15 +98,33 @@ assets:
   - name: mset/P_EX100_MAGF.mset
 #Limits
 - name: limit/us/donald2.bar
+  multi:
+  - name: limit/fr/donald2.bar
+  - name: limit/gr/donald2.bar
+  - name: limit/it/donald2.bar
+  - name: limit/sp/donald2.bar
+  - name: limit/fm/donald2.bar
   method: copy
   source:
   - name: limit/donald2.bar
 - name: limit/us/donald2_wi.bar
+  multi:
+  - name: limit/fr/donald2.bar
+  - name: limit/gr/donald2.bar
+  - name: limit/it/donald2.bar
+  - name: limit/sp/donald2.bar
+  - name: limit/fm/donald2.bar
   method: copy
   source:
   - name: limit/donald2_wi.bar
 #Ard
 - name: ard/us/eh03.ard
+  multi:
+  - name: ard/fr/eh03.ard
+  - name: ard/gr/eh03.ard
+  - name: ard/it/eh03.ard
+  - name: ard/sp/eh03.ard
+  - name: ard/eh03.ard
   method: copy
   source:
   - name: ard/eh03.ard
