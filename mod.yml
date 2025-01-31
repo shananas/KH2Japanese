@@ -49,6 +49,11 @@ assets:
 - name: 03system.bin
   method: binarc
   source:
+  - name: cmd
+    method: copy
+    source:
+    - name: 03System.bin/encmd_0.list
+    type: List
   - name: item
     method: copy
     source:
